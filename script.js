@@ -73,10 +73,13 @@ function populateConfig() {
   setLink("premium-btn",      CONFIG.PREMIUM_LINK);
 
   // E-mails
+  const emailHref = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONFIG.EMAIL_CONTATO)}`;
   ["download-email", "footer-email"].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
-    el.href        = `mailto:${CONFIG.EMAIL_CONTATO}`;
+    el.href        = emailHref;
+    el.target      = "_blank";
+    el.rel         = "noopener";
     el.textContent = CONFIG.EMAIL_CONTATO;
   });
 }
