@@ -1,2 +1,2 @@
-# site_plantoesApp
-Repositório do site para divulgação do aplicativo
+# site_plantoes
+Repositório do site para divulgação de um aplicativo
