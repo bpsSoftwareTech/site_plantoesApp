@@ -3,7 +3,7 @@ const CONFIG = {
   APP_TAGLINE:     "Gerencie seus plantões com facilidade",
   APP_DESCRIPTION: "O aplicativo completo para profissionais de saúde controlarem plantões, finanças e agenda em um só lugar.",
 
-  PLAYSTORE_LINK: "#",   // Ex: "https://play.google.com/store/apps/details?id=..."
+  PLAYSTORE_LINK: "plantoes.apk",   // APK servido pelo próprio site
   APPSTORE_LINK:  "#",   // Ex: "https://apps.apple.com/app/..."
   PREMIUM_LINK:   "#",   // Link para página de assinatura
 
